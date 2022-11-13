@@ -1,0 +1,129 @@
+.belowHeader {
+    width: 100%;
+    margin: 35px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.belowHeader .left {
+    padding: 0 15px;
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 80px 0px #0000001A;
+}
+
+.leftContent {
+    margin-bottom: 10px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftContent h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    font-size: 30px;
+}
+
+.leftContent h1 span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.leftContent li {
+    display: flex;
+    flex-wrap: nowrap;
+    color: #800080;
+    font-size: 14px;
+}
+
+.left button {
+    background-color: #6c086c;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.belowHeader .right {
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.belowHeader .right h3 {
+    color: #800080;
+}
+
+.belowHeader li {
+    list-style: none;
+}
+
+.belowHeader .right .ref {
+    border: 2px solid rgb(17, 122, 184);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    color: #800080;
+}
+
+.belowHeader .right .ref .li {
+    margin-right: 10%;
+}
+
+@media only screen and (max-width: 900px) {
+    .belowHeader {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .belowHeader .left {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .belowHeader .left {
+        padding: 0 15px;
+        background-color: white;
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0px 3px 50px 0px #0000001A;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .belowHeader .left {
+        width: 370px;
+    }
+
+    .belowHeader .right {
+        width: 370px;
+    }
+}

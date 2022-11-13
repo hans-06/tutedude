@@ -1,0 +1,21 @@
+.header1 {
+    width: 100%;
+}
+
+.header1 p {
+    width: 138px;
+    height: 21px;
+    margin-left: 187px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+@media only screen and (max-width: 700px) {
+    .header1 p{
+        margin-left: 60px;
+    }
+}

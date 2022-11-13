@@ -1,0 +1,54 @@
+.insideWork {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-bottom: 10px;
+}
+
+.insideWork .icon {
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: lightgray;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon span {
+    font-size: 32px;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.insideWork .content {
+    width: 80%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentHeading {
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    margin-bottom: -15px;
+}
+
+@media only screen and (max-width: 900px) {
+    .insideWork {
+        width: 100%;
+    }
+}
